@@ -21,13 +21,17 @@
 
     <q-drawer v-model="left" side="left">
       <!-- drawer content -->
-      <q-scroll-area class="bg-grey-9 window-height">
+      <q-scroll-area class="bg-grey-10 window-height">
       <LeftPanelList />
       </q-scroll-area>
     </q-drawer>
 
     <q-page-container>
+      
+      <q-scroll-area class="bg-grey-10" style="height: calc(100vh - 50px);">
       <router-view />
+      </q-scroll-area>
+
     </q-page-container>
   </q-layout>
 </template>

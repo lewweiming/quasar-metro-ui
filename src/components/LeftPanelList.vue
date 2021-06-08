@@ -1,5 +1,5 @@
 <template>
-  <q-list separator class="bg-grey-10 text-grey-2 window-height">
+  <q-list separator class="bg-grey-10 text-grey-2 full-height">
     <q-item-label header> Explore Metro UI </q-item-label>
     <q-item :to="i.route" v-for="i in items" clickable>
       <q-item-section avatar>
@@ -74,6 +74,10 @@ const items = [
   {
     label: "Live Tiles",
     route: 'live-tiles'
+  },
+  {
+    label: "Interactive Tiles",
+    route: 'interactive-tiles'
   },
   {
     label: "Scroll",

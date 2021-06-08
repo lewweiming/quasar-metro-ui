@@ -16,6 +16,11 @@ const routes = [
       { path: 'graphs', component: () => import('pages/Graphs.vue') },
       { path: 'indicators', component: () => import('pages/Indicators.vue') },
       { path: 'windows', component: () => import('pages/Windows.vue') },
+      { path: 'flip-cards', component: () => import('pages/FlipCards.vue') },
+      { path: 'live-tiles', component: () => import('pages/LiveTiles.vue') },
+      { path: 'interactive-tiles', component: () => import('pages/InteractiveTiles.vue') },
+      { path: 'scroll', component: () => import('pages/Scroll.vue') },
+      { path: 'effects', component: () => import('pages/Effects.vue') },
       /* Themes */
       { path: 'e-commerce', component: () => import('pages/Ecommerce.vue') },
       { path: 'gaming', component: () => import('pages/Gaming.vue') },
