@@ -97,6 +97,10 @@ const themes = [
   {
     label: "Gaming",
     route: 'gaming'
+  },
+  {
+    label: "Travel",
+    route: 'travel'
   }
 ]
 

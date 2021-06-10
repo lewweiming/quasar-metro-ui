@@ -24,6 +24,7 @@ const routes = [
       /* Themes */
       { path: 'e-commerce', component: () => import('pages/Ecommerce.vue') },
       { path: 'gaming', component: () => import('pages/Gaming.vue') },
+      { path: 'travel', component: () => import('pages/Travel.vue') },
     ]
   },
 

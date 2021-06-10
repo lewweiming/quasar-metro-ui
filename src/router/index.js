@@ -5,6 +5,11 @@ import routes from './routes'
 
 Vue.use(VueRouter)
 
+
+import VueApexCharts from 'vue-apexcharts'
+Vue.use(VueApexCharts)
+Vue.component('apexchart', VueApexCharts)
+
 /*
  * If not building with SSR mode, you can
  * directly export the Router instantiation;
